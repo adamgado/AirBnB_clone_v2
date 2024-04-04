@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """distributes an archive to the web servers"""
-import os.path
+from os.path import exists
 from fabric.api import env
 from fabric.api import put
 from fabric.api import run
